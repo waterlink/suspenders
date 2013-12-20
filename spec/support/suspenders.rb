@@ -36,6 +36,6 @@ module SuspendersTestHelpers
   end
 
   def root_path
-    File.expand_path('../../', __FILE__)
+    File.expand_path('../../../', __FILE__)
   end
 end

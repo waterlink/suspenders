@@ -11,9 +11,5 @@ feature 'suspending a project' do
     Bundler.with_clean_env do
       expect(`rake`).to include('0 failures')
     end
-
-    staging_file = "#{suspended_directory}/config/environments/staging.rb"
-
-    expect(IO.read(staging_file)).to eq template('staging.rb')
   end
 end
