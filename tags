@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Actions	lib/suspenders/actions.rb	/^  module Actions$/;"	m	class:Suspenders
+AppBuilder	lib/suspenders/app_builder.rb	/^  class AppBuilder < Rails::AppBuilder$/;"	c	class:Suspenders
+AppGenerator	lib/suspenders/generators/app_generator.rb	/^  class AppGenerator < Rails::Generators::AppGenerator$/;"	c	class:Suspenders
+Suspenders	lib/suspenders/actions.rb	/^module Suspenders$/;"	m
+Suspenders	lib/suspenders/app_builder.rb	/^module Suspenders$/;"	m
+Suspenders	lib/suspenders/generators/app_generator.rb	/^module Suspenders$/;"	m
+Suspenders	lib/suspenders/version.rb	/^module Suspenders$/;"	m
+action_mailer_host	lib/suspenders/actions.rb	/^    def action_mailer_host(rails_env, host)$/;"	f	class:Suspenders.Actions
+configure_action_mailer	lib/suspenders/app_builder.rb	/^    def configure_action_mailer$/;"	f	class:Suspenders.AppBuilder
+configure_app	lib/suspenders/generators/app_generator.rb	/^    def configure_app$/;"	f	class:Suspenders.AppGenerator
+configure_background_jobs_for_rspec	lib/suspenders/app_builder.rb	/^    def configure_background_jobs_for_rspec$/;"	f	class:Suspenders.AppBuilder
+configure_environment	lib/suspenders/actions.rb	/^    def configure_environment(rails_env, config)$/;"	f	class:Suspenders.Actions
+configure_generators	lib/suspenders/app_builder.rb	/^    def configure_generators$/;"	f	class:Suspenders.AppBuilder
+configure_rack_timeout	lib/suspenders/app_builder.rb	/^    def configure_rack_timeout$/;"	f	class:Suspenders.AppBuilder
+configure_rspec	lib/suspenders/app_builder.rb	/^    def configure_rspec$/;"	f	class:Suspenders.AppBuilder
+configure_smtp	lib/suspenders/app_builder.rb	/^    def configure_smtp$/;"	f	class:Suspenders.AppBuilder
+configure_spec_support_features	lib/suspenders/app_builder.rb	/^    def configure_spec_support_features$/;"	f	class:Suspenders.AppBuilder
+configure_time_formats	lib/suspenders/app_builder.rb	/^    def configure_time_formats$/;"	f	class:Suspenders.AppBuilder
+configure_time_zone	lib/suspenders/app_builder.rb	/^    def configure_time_zone$/;"	f	class:Suspenders.AppBuilder
+configure_unicorn	lib/suspenders/app_builder.rb	/^    def configure_unicorn$/;"	f	class:Suspenders.AppBuilder
+copy_libraries	lib/suspenders/generators/app_generator.rb	/^    def copy_libraries$/;"	f	class:Suspenders.AppGenerator
+copy_miscellaneous_files	lib/suspenders/app_builder.rb	/^    def copy_miscellaneous_files$/;"	f	class:Suspenders.AppBuilder
+copy_miscellaneous_files	lib/suspenders/generators/app_generator.rb	/^    def copy_miscellaneous_files$/;"	f	class:Suspenders.AppGenerator
+create_application_layout	lib/suspenders/app_builder.rb	/^    def create_application_layout$/;"	f	class:Suspenders.AppBuilder
+create_common_javascripts	lib/suspenders/app_builder.rb	/^    def create_common_javascripts$/;"	f	class:Suspenders.AppBuilder
+create_database	lib/suspenders/app_builder.rb	/^    def create_database$/;"	f	class:Suspenders.AppBuilder
+create_github_repo	lib/suspenders/app_builder.rb	/^    def create_github_repo(repo_name)$/;"	f	class:Suspenders.AppBuilder
+create_github_repo	lib/suspenders/generators/app_generator.rb	/^    def create_github_repo$/;"	f	class:Suspenders.AppGenerator
+create_heroku_apps	lib/suspenders/app_builder.rb	/^    def create_heroku_apps$/;"	f	class:Suspenders.AppBuilder
+create_heroku_apps	lib/suspenders/generators/app_generator.rb	/^    def create_heroku_apps$/;"	f	class:Suspenders.AppGenerator
+create_partials_directory	lib/suspenders/app_builder.rb	/^    def create_partials_directory$/;"	f	class:Suspenders.AppBuilder
+create_shared_flashes	lib/suspenders/app_builder.rb	/^    def create_shared_flashes$/;"	f	class:Suspenders.AppBuilder
+create_shared_javascripts	lib/suspenders/app_builder.rb	/^    def create_shared_javascripts$/;"	f	class:Suspenders.AppBuilder
+create_suspenders_views	lib/suspenders/generators/app_generator.rb	/^    def create_suspenders_views$/;"	f	class:Suspenders.AppGenerator
+customize_error_pages	lib/suspenders/app_builder.rb	/^    def customize_error_pages$/;"	f	class:Suspenders.AppBuilder
+customize_error_pages	lib/suspenders/generators/app_generator.rb	/^    def customize_error_pages$/;"	f	class:Suspenders.AppGenerator
+customize_gemfile	lib/suspenders/generators/app_generator.rb	/^    def customize_gemfile$/;"	f	class:Suspenders.AppGenerator
+disable_xml_params	lib/suspenders/app_builder.rb	/^    def disable_xml_params$/;"	f	class:Suspenders.AppBuilder
+download_file	lib/suspenders/actions.rb	/^    def download_file(uri_string, destination)$/;"	f	class:Suspenders.Actions
+enable_database_cleaner	lib/suspenders/app_builder.rb	/^    def enable_database_cleaner$/;"	f	class:Suspenders.AppBuilder
+enable_factory_girl_syntax	lib/suspenders/app_builder.rb	/^    def enable_factory_girl_syntax$/;"	f	class:Suspenders.AppBuilder
+enable_rack_deflater	lib/suspenders/app_builder.rb	/^    def enable_rack_deflater$/;"	f	class:Suspenders.AppBuilder
+factories_spec_rake_task	lib/suspenders/app_builder.rb	/^    def factories_spec_rake_task$/;"	f	class:Suspenders.AppBuilder
+finish_template	lib/suspenders/generators/app_generator.rb	/^    def finish_template$/;"	f	class:Suspenders.AppGenerator
+generate_clearance	lib/suspenders/app_builder.rb	/^    def generate_clearance$/;"	f	class:Suspenders.AppBuilder
+generate_rspec	lib/suspenders/app_builder.rb	/^    def generate_rspec$/;"	f	class:Suspenders.AppBuilder
+generate_secret	lib/suspenders/app_builder.rb	/^    def generate_secret$/;"	f	class:Suspenders.AppBuilder
+get_builder_class	lib/suspenders/generators/app_generator.rb	/^    def get_builder_class$/;"	f	class:Suspenders.AppGenerator
+gitignore_files	lib/suspenders/app_builder.rb	/^    def gitignore_files$/;"	f	class:Suspenders.AppBuilder
+init_git	lib/suspenders/app_builder.rb	/^    def init_git$/;"	f	class:Suspenders.AppBuilder
+init_git	lib/suspenders/generators/app_generator.rb	/^    def init_git$/;"	f	class:Suspenders.AppGenerator
+outro	lib/suspenders/generators/app_generator.rb	/^    def outro$/;"	f	class:Suspenders.AppGenerator
+override_path_for_tests	lib/suspenders/app_builder.rb	/^    def override_path_for_tests$/;"	f	class:Suspenders.AppBuilder
+provide_setup_script	lib/suspenders/app_builder.rb	/^    def provide_setup_script$/;"	f	class:Suspenders.AppBuilder
+raise_on_delivery_errors	lib/suspenders/app_builder.rb	/^    def raise_on_delivery_errors$/;"	f	class:Suspenders.AppBuilder
+raise_on_unpermitted_parameters	lib/suspenders/app_builder.rb	/^    def raise_on_unpermitted_parameters$/;"	f	class:Suspenders.AppBuilder
+readme	lib/suspenders/app_builder.rb	/^    def readme$/;"	f	class:Suspenders.AppBuilder
+remove_files_we_dont_need	lib/suspenders/generators/app_generator.rb	/^    def remove_files_we_dont_need$/;"	f	class:Suspenders.AppGenerator
+remove_public_index	lib/suspenders/app_builder.rb	/^    def remove_public_index$/;"	f	class:Suspenders.AppBuilder
+remove_rails_logo_image	lib/suspenders/app_builder.rb	/^    def remove_rails_logo_image$/;"	f	class:Suspenders.AppBuilder
+remove_routes_comment_lines	lib/suspenders/app_builder.rb	/^    def remove_routes_comment_lines$/;"	f	class:Suspenders.AppBuilder
+remove_routes_comment_lines	lib/suspenders/generators/app_generator.rb	/^    def remove_routes_comment_lines$/;"	f	class:Suspenders.AppGenerator
+remove_turbolinks	lib/suspenders/app_builder.rb	/^    def remove_turbolinks$/;"	f	class:Suspenders.AppBuilder
+replace_gemfile	lib/suspenders/app_builder.rb	/^    def replace_gemfile$/;"	f	class:Suspenders.AppBuilder
+replace_in_file	lib/suspenders/actions.rb	/^    def replace_in_file(relative_path, find, replace)$/;"	f	class:Suspenders.Actions
+run_bundle	lib/suspenders/generators/app_generator.rb	/^    def run_bundle$/;"	f	class:Suspenders.AppGenerator
+set_heroku_rails_secrets	lib/suspenders/app_builder.rb	/^    def set_heroku_rails_secrets$/;"	f	class:Suspenders.AppBuilder
+set_heroku_remotes	lib/suspenders/app_builder.rb	/^    def set_heroku_remotes$/;"	f	class:Suspenders.AppBuilder
+set_ruby_to_version_being_used	lib/suspenders/app_builder.rb	/^    def set_ruby_to_version_being_used$/;"	f	class:Suspenders.AppBuilder
+setup_coffeescript	lib/suspenders/generators/app_generator.rb	/^    def setup_coffeescript$/;"	f	class:Suspenders.AppGenerator
+setup_database	lib/suspenders/generators/app_generator.rb	/^    def setup_database$/;"	f	class:Suspenders.AppGenerator
+setup_default_rake_task	lib/suspenders/app_builder.rb	/^    def setup_default_rake_task$/;"	f	class:Suspenders.AppBuilder
+setup_development_environment	lib/suspenders/generators/app_generator.rb	/^    def setup_development_environment$/;"	f	class:Suspenders.AppGenerator
+setup_foreman	lib/suspenders/app_builder.rb	/^    def setup_foreman$/;"	f	class:Suspenders.AppBuilder
+setup_git	lib/suspenders/generators/app_generator.rb	/^    def setup_git$/;"	f	class:Suspenders.AppGenerator
+setup_gitignore	lib/suspenders/generators/app_generator.rb	/^    def setup_gitignore$/;"	f	class:Suspenders.AppGenerator
+setup_production_environment	lib/suspenders/generators/app_generator.rb	/^    def setup_production_environment$/;"	f	class:Suspenders.AppGenerator
+setup_secret_token	lib/suspenders/app_builder.rb	/^    def setup_secret_token$/;"	f	class:Suspenders.AppBuilder
+setup_secret_token	lib/suspenders/generators/app_generator.rb	/^    def setup_secret_token$/;"	f	class:Suspenders.AppGenerator
+setup_staging_environment	lib/suspenders/app_builder.rb	/^    def setup_staging_environment$/;"	f	class:Suspenders.AppBuilder
+setup_staging_environment	lib/suspenders/generators/app_generator.rb	/^    def setup_staging_environment$/;"	f	class:Suspenders.AppGenerator
+setup_stylesheets	lib/suspenders/app_builder.rb	/^    def setup_stylesheets$/;"	f	class:Suspenders.AppBuilder
+setup_stylesheets	lib/suspenders/generators/app_generator.rb	/^    def setup_stylesheets$/;"	f	class:Suspenders.AppGenerator
+setup_test_environment	lib/suspenders/generators/app_generator.rb	/^    def setup_test_environment$/;"	f	class:Suspenders.AppGenerator
+suspenders_customization	lib/suspenders/generators/app_generator.rb	/^    def suspenders_customization$/;"	f	class:Suspenders.AppGenerator
+test_factories_first	lib/suspenders/app_builder.rb	/^    def test_factories_first$/;"	f	class:Suspenders.AppBuilder
+use_postgres_config_template	lib/suspenders/app_builder.rb	/^    def use_postgres_config_template$/;"	f	class:Suspenders.AppBuilder
+use_rspec_binstub	lib/suspenders/app_builder.rb	/^    def use_rspec_binstub$/;"	f	class:Suspenders.AppBuilder
+using_active_record?	lib/suspenders/generators/app_generator.rb	/^    def using_active_record?$/;"	f	class:Suspenders.AppGenerator
