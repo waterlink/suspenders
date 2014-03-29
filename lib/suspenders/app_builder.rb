@@ -132,8 +132,7 @@ end
     end
 
     def use_postgres_config_template
-      template 'postgresql_database.yml.erb', 'config/database.yml',
-        force: true
+      template 'postgresql_database.yml.erb', 'config/database.yml'
     end
 
     def create_database
